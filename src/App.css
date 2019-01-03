@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+div.row {
+  display: flex;
+}
+.cell {
+  padding: 5px;
+  margin: 15px;
+  background-color: #61dafb;
+  height: 50px;
+  width: 50px;
+  align-content: center;
+}
+.wrapper {
+  float: left;
+}
+.messages {
+  overflow-y: scroll;
+  height: 400px;
+  widows: 20%;
+}
+.App-link {
+  color: #61dafb;
+}
+
+table {
+  border: solid #282c34;
+  border-width: 1px;
+}
+
+th {
+  height: 50px;
+}
+
+tr {
+  width: 50px;
+}
